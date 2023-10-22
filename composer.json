@@ -41,5 +41,7 @@
                 "MyGiftApi": "Gemy\\MygiftApi\\MyGiftApi"
             }
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
