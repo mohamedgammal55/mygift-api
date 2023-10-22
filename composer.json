@@ -15,6 +15,14 @@
             "src/helper.php"
         ]
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Gemy\\MygiftApi\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
     "authors": [
         {
             "name": "mohamed gamal",
