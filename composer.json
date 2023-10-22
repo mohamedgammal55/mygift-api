@@ -4,12 +4,11 @@
     "type": "library",
     "require": {
         "php": ">=7.0",
-        "illuminate/support": ">=5.4",
         "laravel/framework": ">=7.0"
     },
     "license": "MIT",
     "autoload": {
-        "psr-4": {
+        "psr-0": {
             "Gemy\\MygiftApi\\": "src/"
         },
         "files": [
@@ -22,5 +21,6 @@
             "email": "mohamedgammal55@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
