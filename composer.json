@@ -10,6 +10,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
+            "App\\": "app/",
             "Gemy\\MygiftApi\\": "src/"
         },
         "files": [
@@ -18,6 +19,7 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "App\\": "app/",
             "Gemy\\MygiftApi\\": "src/"
         },
         "files": [
@@ -29,5 +31,15 @@
             "name": "mohamed gamal",
             "email": "mohamedgammal55@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gemy\\MygiftApi\\MyGiftRouteServiceProvider"
+            ],
+            "aliases": {
+                "MyGiftApi": "Gemy\\MygiftApi\\MyGiftApi"
+            }
+        }
+    }
 }

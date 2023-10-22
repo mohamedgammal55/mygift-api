@@ -1,10 +1,10 @@
 <?php
 
-namespace Gemy\MygiftApi;
+namespace Gemy\MygiftApi\App;
 
 class MyGiftApi
 {
-    public static function testRoute()
+    public function test()
     {
         return 'dd';
     }
