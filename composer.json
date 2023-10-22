@@ -8,7 +8,7 @@
     },
     "license": "MIT",
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Gemy\\MygiftApi\\": "src/"
         },
         "files": [
