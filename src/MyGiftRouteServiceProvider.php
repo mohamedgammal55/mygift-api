@@ -2,13 +2,18 @@
 
 namespace Gemy\MygiftApi;
 
-use App\Providers\RouteServiceProvider as ServiceProvider;
-use Illuminate\Cache\RateLimiting\Limit;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\RateLimiter;
-use Illuminate\Support\Facades\Route;
+use Closure;
+use Illuminate\Support\ServiceProvider;
 
 class MyGiftRouteServiceProvider extends ServiceProvider
 {
+    public function boot()
+    {
 
+    }
+
+    public function register()
+    {
+
+    }
 }
