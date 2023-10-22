@@ -4,7 +4,7 @@ namespace Gemy\MygiftApi\App;
 
 class MyGiftApi
 {
-    public function test()
+    public static function test()
     {
         return 'dd';
     }
