@@ -2,7 +2,7 @@
     "name": "gemy/mygift-api",
     "description": "using for mygift-api",
     "type": "library",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "require": {
         "php": ">=7.0",
         "laravel/framework": ">=7.0"
