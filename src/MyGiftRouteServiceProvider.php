@@ -10,17 +10,5 @@ use Illuminate\Support\Facades\Route;
 
 class MyGiftRouteServiceProvider extends ServiceProvider
 {
-    private function this_path(){
-        return __DIR__;
-    }
-    public function boot(): void
-    {
 
-        $this->routes(function () {
-            Route::middleware(['api', 'lang'])
-                ->prefix('api')
-                ->group(base_path('routes/api.php'));
-
-        });
-    }
 }
