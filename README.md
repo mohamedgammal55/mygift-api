@@ -19,6 +19,14 @@ You can install the package via composer:
 composer require gemy/mygift-api
 ```
 
+## setup
+
+to setup mi gift setting:
+
+```bash
+php artisan my-gift
+```
+
 ## publish
 
 run it to publish config file:
