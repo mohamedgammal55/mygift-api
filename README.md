@@ -26,11 +26,11 @@ to setup my gift setting:
 ```bash
 php artisan my-gift
 ```
-
-## publish
-
-run it to publish config file:
-
-```bash
-php artisan vendor:publish --tag=config --provider=Gemy\MygiftApi\MyGiftRouteServiceProvider
-```
+<table style="width: 100%">
+<thead>
+<tr>
+<th>الكود</th>
+<th>الحالة</th>
+</tr>
+</thead>
+</table>
