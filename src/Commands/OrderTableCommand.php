@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 
 class OrderTableCommand extends Command
 {
-    protected $signature = 'my-gift:run'; // Command signature
+    protected $signature = 'my-gift:command'; // Command signature
     protected $description = 'Make Model'; // Command description
 
     public function handle()

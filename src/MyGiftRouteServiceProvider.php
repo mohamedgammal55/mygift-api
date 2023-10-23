@@ -15,11 +15,6 @@ class MyGiftRouteServiceProvider extends ServiceProvider
 
     public function register()
     {
-
-    }
-
-    protected function registerCommands()
-    {
         $this->commands([
             OrderTableCommand::class
         ]);
