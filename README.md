@@ -21,7 +21,7 @@ composer require gemy/mygift-api
 
 ## setup
 
-to setup mi gift setting:
+to setup my gift setting:
 
 ```bash
 php artisan my-gift
