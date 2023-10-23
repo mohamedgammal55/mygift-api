@@ -13,9 +13,6 @@ class OrderTableCommand extends Command
 
     public function handle()
     {
-
-        $this->info('Working on the task...');
-
         $this->info('  we are working to setup my gift');
 
 
@@ -60,6 +57,7 @@ class OrderTableCommand extends Command
                     DB::statement("ALTER TABLE {$table} ADD mygiftdiscount DOUBLE NULL DEFAULT 0");
                 }
 
+                $this->changeConfig($table);
 
                 $progressBar->start();
 
@@ -91,5 +89,11 @@ class OrderTableCommand extends Command
     private function checkIfTableExists($table)
     {
         return Schema::hasTable($table);
+    }
+
+    private function changeConfig($table)
+    {
+        $phpCode = "<?php return ['table'=>'$table'] ?>";
+        file_put_contents(config_path('mygift-api.php'), $phpCode);
     }
 }
