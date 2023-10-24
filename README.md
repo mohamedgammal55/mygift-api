@@ -27,6 +27,13 @@ to setup my gift setting:
 php artisan my-gift
 ```
 
+#### This is the code when the status is 200
+<img src="response.png" alt="my gift response">
+
+
+
+
+
 ### The status codes
 
 These are the codes that will be returned to you in the event of success or failure:
@@ -65,11 +72,6 @@ These are the codes that will be returned to you in the event of success or fail
 </tr>
 
 </tbody>
-
-
-#### This is the code when the status is 200
-<img src="response.png" alt="my gift response">
-
 
 
 
