@@ -26,17 +26,45 @@ to setup my gift setting:
 ```bash
 php artisan my-gift
 ```
+
+## The status codes
+
+These are the codes that will be returned to you in the event of success or failure:
+
 <table style="width:100%">
+<thead>
   <tr>
     <th>        status             </th>
     <th>        the meaning             </th>
   </tr>
-  <tr>
-    <td>Row 1, Cell 1</td>
-    <td>Row 1, Cell 2</td>
-  </tr>
-  <tr>
-    <td>Row 2, Cell 1</td>
-    <td>Row 2, Cell 2</td>
-  </tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>This code exists, use the data in “data”</td>
+</tr>
+<tr>
+<td>404</td>
+<td>This code is invalid</td>
+</tr>
+<tr>
+<td>406</td>
+<td>you must send the code</td>
+</tr>
+<tr>
+<td>407</td>
+<td>you must send the slug</td>
+</tr>
+<tr>
+<td>408</td>
+<td>This code has already been used</td>
+</tr>
+<tr>
+<td>409</td>
+<td>This code has expired</td>
+</tr>
+
+</tbody>
+
+
 </table>
