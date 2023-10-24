@@ -1,4 +1,4 @@
-<p align="center"><img src="logo.svg" alt="Laravel Hyperpay"></p>
+<p align="center"><img src="logo.svg" alt="My gift logo"></p>
 
 <p align="center">
 <a href="https://github.com/mohamedgammal55/mygift-api/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -65,6 +65,12 @@ These are the codes that will be returned to you in the event of success or fail
 </tr>
 
 </tbody>
+
+
+#### This is the code when the status is 200
+<img src="response.png" alt="my gift response">
+
+
 
 
 </table>
