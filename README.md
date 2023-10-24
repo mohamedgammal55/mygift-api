@@ -6,9 +6,11 @@
 <a href="https://packagist.org/packages/gemy/mygift-api"><img src="https://img.shields.io/packagist/v/gemy/mygift-api" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/gemy/mygift-api"><img src="https://img.shields.io/packagist/l/gemy/mygift-api" alt="License"></a>
 </p>
+
+
 <p align="center">
-<a href="#!"><img src="google-play.svg" style="max-width: 20%;" alt="app link on google play"></a>
-<a href="#!"><img src="apple-store.svg" style="max-width: 20%;" alt="app link on apple store"></a>
+<a href="#!"><img src="google-play.svg"  alt="app link on google play"></a>
+<a href="#!"><img src="apple-store.svg"  alt="app link on apple store"></a>
 </p>
 
 
