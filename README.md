@@ -27,12 +27,6 @@ to setup my gift setting:
 php artisan my-gift
 ```
 
-#### This is the code when the status is 200
-
-if "type" = "per" It means that it is a percentage, and when it is with "value" it means that it is just a value 
-
-<img src="response.png" alt="my gift response">
-
 
 
 ### The status codes
@@ -71,9 +65,33 @@ These are the codes that will be returned to you in the event of success or fail
 <td>409</td>
 <td>This code has expired</td>
 </tr>
-
 </tbody>
-
-
-
 </table>
+
+
+#### This is the code when the status is 200
+
+if "type" = "per" It means that it is a percentage, and when it is with "value" it means that it is just a value
+
+<img src="response.png" alt="my gift response">
+
+
+## The code
+
+use it as a trait
+
+```bash
+use Gemy\MygiftApi\App\MyGiftApi;
+
+class HomeController extends Controller
+{
+    use MyGiftApi;
+
+    public function index()
+    {
+        $response = $this->checkIfCodeExists('code', 'slug');
+        
+        put your code here
+    }
+}
+```
