@@ -26,11 +26,17 @@ to setup my gift setting:
 ```bash
 php artisan my-gift
 ```
-<table style="width: 100%">
-<thead>
-<tr>
-<th>الكود</th>
-<th>الحالة</th>
-</tr>
-</thead>
+<table style="width:100%">
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Row 1, Cell 1</td>
+    <td>Row 1, Cell 2</td>
+  </tr>
+  <tr>
+    <td>Row 2, Cell 1</td>
+    <td>Row 2, Cell 2</td>
+  </tr>
 </table>
