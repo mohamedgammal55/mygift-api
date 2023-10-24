@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/gemy/mygift-api"><img src="https://img.shields.io/packagist/l/gemy/mygift-api" alt="License"></a>
 </p>
 
+
+### Download the App
+
+<p align="center">
+<a href="#!"><img src="google-play.svg" alt="app link on google play"></a>
+<a href="#1"><img src="apple-store.svg" alt="app link on apple store"></a>
+</p>
+
 ## My Gift
 
 My Gift is an application to buy discount coupons
