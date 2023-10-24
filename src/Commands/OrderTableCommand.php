@@ -1,6 +1,6 @@
 <?php
 
-namespace Gemy\MygiftApi\Commands;
+namespace Commands;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
@@ -8,7 +8,7 @@ use Illuminate\Console\Command;
 
 class OrderTableCommand extends Command
 {
-    protected $signature = 'my-gift'; // Command signature
+    protected $signature = 'my-gift:setup'; // Command signature
     protected $description = 'setup my gift'; // Command description
 
     public function handle()
