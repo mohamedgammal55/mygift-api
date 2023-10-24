@@ -28,9 +28,10 @@ php artisan my-gift
 ```
 
 #### This is the code when the status is 200
+
+##### if "type" = "per" It means that it is a percentage, and when it is with "value" it means that it is just a value 
+
 <img src="response.png" alt="my gift response">
-
-
 
 
 
