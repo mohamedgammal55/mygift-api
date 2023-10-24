@@ -27,7 +27,7 @@ to setup my gift setting:
 php artisan my-gift
 ```
 
-# The status codes
+### The status codes
 
 These are the codes that will be returned to you in the event of success or failure:
 
