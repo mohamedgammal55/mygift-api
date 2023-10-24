@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-<a href="#!"><img src="google-play.svg"  alt="app link on google play"></a>
-<a href="#!"><img src="apple-store.svg"  alt="app link on apple store"></a>
+<a href="#!"><img src="googleplay.svg"  alt="app link on google play"></a>
+<a href="#!"><img src="applestore.svg"  alt="app link on apple store"></a>
 </p>
 
 ## My Gift
