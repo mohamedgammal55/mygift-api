@@ -28,8 +28,8 @@ php artisan my-gift
 ```
 <table style="width:100%">
   <tr>
-    <th>Header 1</th>
-    <th>Header 2</th>
+    <th>        status             </th>
+    <th>        the meaning             </th>
   </tr>
   <tr>
     <td>Row 1, Cell 1</td>
