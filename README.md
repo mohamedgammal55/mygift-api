@@ -91,7 +91,7 @@ class HomeController extends Controller
     {
         $response = $this->checkIfCodeExists('code', 'slug');
         
-        put your code here
+        //put your code here
     }
 }
 ```
