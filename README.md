@@ -87,9 +87,16 @@ class HomeController extends Controller
 {
     use MyGiftApi;
 
-    public function index()
+    public function checkIfCodeExists()
     {
         $response = $this->checkIfCodeExists('code', 'slug');
+        
+        //put your code here
+    }
+    
+    public function useCoupon()
+    {
+        $response = $this->useCoupon('code', 'slug','your order id','The discount value after the calculation');
         
         //put your code here
     }
