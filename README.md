@@ -24,7 +24,7 @@ You can install the package via composer:
 composer require gemy/mygift-api
 ```
 
-## setup
+## setup Database
 
 to setup my gift setting:
 
@@ -33,7 +33,7 @@ php artisan my-gift:setup
 ```
 
 
-## setup
+## setup Slug
 
 to save your slug on my gift:
 
