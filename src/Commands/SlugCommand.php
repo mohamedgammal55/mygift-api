@@ -27,7 +27,7 @@ class SlugCommand extends Command
             $slug = $this->ask('What is The slug in my gift app?');
         }
 
-        $number = 400000;
+        $number = 40000;
         $total = 100; // Total number of steps
         $progressBar = $this->output->createProgressBar($total);
 
