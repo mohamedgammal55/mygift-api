@@ -22,18 +22,34 @@ class SlugCommand extends Command
 
         $slug = $this->ask('What is The slug in my gift app?');
 
+        $table = config('mygift-api.table');
+
+
         while (strlen($slug) == 0) {
             $this->warn('  the slug name is required');
             $slug = $this->ask('What is The slug in my gift app?');
         }
 
-        $number = 40000;
-        $total = 100; // Total number of steps
+        $column = $this->ask("What is your total column in $table table");
+
+        while (strlen($column) == 0) {
+            $this->warn('  the column name is required');
+            $column = $this->ask("What is your total column in $table table");
+        }
+
+        while (!Schema::hasColumn($table, $column)) {
+            $this->warn('  the column is invalid');
+            $column = $this->ask("What is your total column in $table table");
+        }
+
+        $number = 400000;
+        $total = 5; // Total number of steps
         $progressBar = $this->output->createProgressBar($total);
 
         try {
             $configArray = include(config_path("mygift-api.php"));
             $configArray['slug'] = $slug;
+            $configArray['total_column'] = $column;
             $str = "<?php return " . var_export($configArray, true) . ";";
             file_put_contents(config_path("mygift-api.php"), $str);
             $progressBar->start();
@@ -46,6 +62,7 @@ class SlugCommand extends Command
             $progressBar->finish();
             $this->info("");
             $this->info("  almost done");
+            $this->info("");
 
 
         } catch (\Exception $exception) {
