@@ -29,7 +29,16 @@ composer require gemy/mygift-api
 to setup my gift setting:
 
 ```bash
-php artisan my-gift
+php artisan my-gift:setup
+```
+
+
+## setup
+
+to save your slug on my gift:
+
+```bash
+php artisan my-gift:slug
 ```
 
 
