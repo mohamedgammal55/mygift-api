@@ -1,6 +1,6 @@
 <?php
 
-namespace Gemy\MygiftApi\App;
+namespace App;
 
 use Illuminate\Support\Facades\Http;
 

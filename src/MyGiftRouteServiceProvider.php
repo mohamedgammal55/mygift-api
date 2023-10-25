@@ -3,7 +3,8 @@
 namespace Gemy\MygiftApi;
 
 use Closure;
-use Gemy\MygiftApi\Commands\OrderTableCommand;
+use Commands\OrderTableCommand;
+use Commands\SlugCommand;
 use Illuminate\Support\ServiceProvider;
 
 class MyGiftRouteServiceProvider extends ServiceProvider
@@ -12,7 +13,8 @@ class MyGiftRouteServiceProvider extends ServiceProvider
     public function register()
     {
         $this->commands([
-            OrderTableCommand::class
+            OrderTableCommand::class,
+            SlugCommand::class,
         ]);
 
     }
