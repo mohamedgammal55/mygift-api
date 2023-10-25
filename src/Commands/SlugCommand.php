@@ -44,6 +44,7 @@ class SlugCommand extends Command
                 $progressBar->advance(); // Advance the progress bar
             }
             $progressBar->finish();
+            $this->info("");
             $this->info("  almost done");
 
 
