@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Http;
 
 trait MyGiftApi
 {
-    private $url = "http://127.0.0.1:8000/code-api/";
+    private $url = "https://my-gift.ascit.sa/code-api/";
 
     public function checkIfCodeExists($code, $slug)
     {
